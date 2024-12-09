@@ -6,7 +6,7 @@ EXPOSE 8081
 
 # Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
+WORKDIR /app
 COPY . .  # Copy everything from MyCycleAPI directory to the container
 RUN dotnet restore "MyCycleAPI.csproj"
 RUN dotnet build "MyCycleAPI.csproj" -c Release -o /app/build

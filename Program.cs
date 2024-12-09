@@ -1,7 +1,5 @@
-
 using Core.FamilyMemberService;
 using Data.AppDbContext;
-using Data.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Serilog;
@@ -15,14 +13,20 @@ namespace MyCycleAPI
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
             builder.Services.AddDbContext<Context>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-            builder.Host.UseSerilog((context,LoggerConfig)=> LoggerConfig.ReadFrom.Configuration(context.Configuration) );
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+            );
+
+            // Configure Serilog
+            builder.Host.UseSerilog((context, LoggerConfig) =>
+                LoggerConfig.ReadFrom.Configuration(context.Configuration));
+
+            // Add AutoMapper and custom services
             builder.Services.AddAutoMapper(typeof(Program));
             builder.Services.AddScoped<IFamilyMemberService, FamilyMemberService>();
+
+            // Add Controllers and Swagger
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -38,7 +42,6 @@ namespace MyCycleAPI
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 

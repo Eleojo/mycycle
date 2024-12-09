@@ -170,6 +170,7 @@ C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.A
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.csproj.CoreCompileInputs.cache
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.sourcelink.json
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\staticwebassets\msbuild.MyCycleAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -184,4 +185,3 @@ C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\refint\MyCyc
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.pdb
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.genruntimeconfig.cache
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\ref\MyCycleAPI.dll
-C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.sourcelink.json

@@ -184,3 +184,4 @@ C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\refint\MyCyc
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.pdb
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.genruntimeconfig.cache
 C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\ref\MyCycleAPI.dll
+C:\Users\Eleojo\source\repos\MyCycleAPI\MyCycleAPI\obj\Debug\net8.0\MyCycleAPI.sourcelink.json
